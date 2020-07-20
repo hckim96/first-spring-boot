@@ -1,10 +1,10 @@
-package com.hc.demo;
+package com.hc.Quickstart;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class QuickstartApplicationTests {
 
 	@Test
 	void contextLoads() {
