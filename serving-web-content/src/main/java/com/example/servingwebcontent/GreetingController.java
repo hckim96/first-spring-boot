@@ -12,6 +12,8 @@ public class GreetingController {
     public String greeting(@RequestParam(name = "name", required = false, defaultValue = "World") String name,
             Model model) {
         model.addAttribute("name", name);
+        // The value of the name parameter is added
+        // to a Model object, ultimately making it accessible to the view template.
         return "greeting";
     }
 
